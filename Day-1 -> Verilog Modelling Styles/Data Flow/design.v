@@ -12,3 +12,6 @@ module logic_gates(
   assign nand_gate = ~(a&b);
   assign nor_gate = ~(a|b);
   assign and_gate = a&b;
+  assign xor_gate = a^b;
+  assign xnor_gate = ~(a^b);
+endmodule
