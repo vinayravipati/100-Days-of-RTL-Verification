@@ -1,7 +1,8 @@
 `include "design.v"
 module tb_top;
+reg a,b,c_in;
 wire s_out, c_out;
-adder inst_a(a, b, c_in, s_out, c_out);
+full_adder inst_a(a, b, c_in, s_out, c_out);
 
 initial begin
     $monitor("Time=%0t a=%b b=%b c_in=%b s_out=%b c_out=%b", $time, a, b, c_in, s_out, c_out);
