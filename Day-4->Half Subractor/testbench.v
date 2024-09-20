@@ -1,4 +1,4 @@
-1 `include "half_sub.v"
+`include "half_sub.v"
 module half_sub_test(d0,b0,a,b);
 output reg a,b;
 input wire d0,b0;
