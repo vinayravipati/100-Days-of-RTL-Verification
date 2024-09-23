@@ -1,4 +1,4 @@
-include "carrylook.v"
+`include "carrylook.v"
 module carrylook_testbench(a, b, cin, S, Cout);
 input wire [3:0]S;input wire Cout;
 output reg [3:0]a,b; output reg cin;
