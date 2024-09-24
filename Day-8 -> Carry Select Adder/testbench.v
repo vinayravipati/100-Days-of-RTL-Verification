@@ -6,7 +6,7 @@ module carryselectadder_testbench(a,b,cin,S,co);
   output reg cin;
 carryselectadder inst(.a(a), .b(b), .cin(cin), S(S), .co(co));
 initial begin
-  $monitor("Time =%t a=%4b b=%4b cin=%4b S=%4b co=%4b", $time,a,b,co,S,co);
+  $monitor("Time =%0t a=%4b b=%4b cin=%4b S=%4b co=%4b", $time,a,b,co,S,co);
   cin=1'b0;
   a = 4'b0110;
   b= 4'b0110;
