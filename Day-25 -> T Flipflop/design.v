@@ -32,7 +32,6 @@ module jkff(
                 endcase
                 end          
          end
-  end
 endmodule
 
 //SR-FF design
